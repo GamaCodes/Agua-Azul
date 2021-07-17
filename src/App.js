@@ -1,15 +1,31 @@
-import logo from "./config.svg";
-import "./App.css";
+import React from 'react';
+import {
+  ChakraProvider,
+  Box,
+  Text,
+  VStack,
+  Grid,
+  theme,
+} from '@chakra-ui/react';
+import { ColorModeSwitcher } from './ColorModeSwitcher';
+import { Logo } from './Logo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="App-link">PROXIMAMENTE</p>
-        <p>Sitio en construcción</p>
-      </header>
-    </div>
+    <ChakraProvider theme={theme}>
+      <Box textAlign="center" fontSize="xl">
+        <Grid minH="100vh" p={3}>
+          <ColorModeSwitcher justifySelf="flex-end" />
+          <VStack spacing={8}>
+            <Logo h="40vmin" pointerEvents="none" />
+            <Text>Proximamente</Text>
+            <Text color="teal.500" fontSize="2xl">
+              Sitio en Construcción
+            </Text>
+          </VStack>
+        </Grid>
+      </Box>
+    </ChakraProvider>
   );
 }
 
