@@ -1,0 +1,24 @@
+.icon-margin {
+  padding-left: 1rem;
+}
+
+.tittle-h1 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 10vw;
+  color: #28AAE1;
+  -webkit-animation: changeColor 150s ease-in infinite;
+  animation: changeColor 2s ease-in infinite;
+}
+
+@keyframes changeColor {
+  0% {color: #28AAE1;}
+  50% {color: #1792b2}
+  100% {color: #28AAE1}
+}
+
+@media (min-width: 700px) {
+  .tittle-h1 {
+    font-size: 5vw;
+  }
+}
