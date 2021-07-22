@@ -65,10 +65,10 @@ export default function Hero() {
               bg={"#28AAE1"}
               _hover={{ bg: "#27679C" }}
             >
-              Maquinaria
+              <a href="#section2">Maquinaria</a>
             </Button>
             <Button rounded={"full"} size={"lg"} fontWeight={"normal"} px={6}>
-              Proyectos
+              <a href="#section3">Proyectos</a>
             </Button>
           </Stack>
         </Stack>

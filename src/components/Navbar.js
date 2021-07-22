@@ -30,15 +30,21 @@ export default function Navbar() {
         <MenuList>
           <MenuItem minH="48px">
             <BsPersonLinesFill />
-            <span className="icon-margin">Quienes Somos</span>
+            <span className="icon-margin">
+              <a href="#section1">Quienes Somos</a>
+            </span>
           </MenuItem>
           <MenuItem minH="40px">
             <BsPuzzle />
-            <span className="icon-margin">Servicios y Productos</span>
+            <span className="icon-margin">
+              <a href="#section3">Servicios y Productos</a>
+            </span>
           </MenuItem>
           <MenuItem minH="40px">
             <BsClipboardData />
-            <span className="icon-margin">Proyectos</span>
+            <span className="icon-margin">
+              <a href="#section2">Proyectos</a>
+            </span>
           </MenuItem>
         </MenuList>
       </Menu>

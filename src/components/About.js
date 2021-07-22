@@ -10,7 +10,7 @@ import {
 
 export default function About() {
   return (
-    <Box p={4}>
+    <Box p={4} id="section1">
       <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
         <Heading
           fontSize={"3xl"}
@@ -26,7 +26,7 @@ export default function About() {
             zIndex: -1,
           }}
         >
-          Quienes Somos
+          ¿Quiénes somos?
         </Heading>
 
         <Box p={5} shadow="xl" borderWidth="3px">
@@ -36,7 +36,7 @@ export default function About() {
             carreteras, sistemas de drenajes pluviales, sanitarios, movimientos
             de tierra, construcción de acueductos, puentes, pavimentación de
             hormigón y asfalto. Productos de nuestra experiencia ofrecemos los
-            servicios de diseño planeación y construcción, administración y
+            servicios de diseño, planeación, construcción, administración y
             operación de proyectos de todas aquellas personas, grupos o
             instituciones que involucran dichos campos de atención y servicio.
           </Text>

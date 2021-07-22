@@ -110,7 +110,7 @@ const features = [
 
 export default function GridListWithHeading() {
   return (
-    <Box p={4}>
+    <Box p={4} id="section2">
       <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
         <Heading
           fontSize={"3xl"}

@@ -83,8 +83,7 @@ export default function Footer() {
           justify={{ base: "center", md: "space-between" }}
           align={{ base: "center", md: "center" }}
         >
-          <Text>Tel: 55 7571 8004</Text>
-          <Text>Email: dyasureste@yahoo.com</Text>
+          <Text>Email: caminos@obrasaguaazul.com</Text>
         </Container>
 
         <Center>
